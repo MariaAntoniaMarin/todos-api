@@ -28,6 +28,9 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # Use devise_token_auth
 gem 'devise_token_auth'
 
+# Installing Active model serializer
+gem "active_model_serializers"
+
 group :development, :test do
   gem 'rspec-rails', '~> 4.0'
 end
